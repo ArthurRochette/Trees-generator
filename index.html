@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cbo.css" >
+
+</head>
+<body>
+    <div class="controls">
+        <label>Area Size:</label><br>
+        <input type="range" id="AREA_SIZE" name="AREA_SIZE" min="0" max="1000" value="500"><br>
+        <label>Number of trees:</label><br>
+        <input type="range" id="NBR_TREES" name="NBR_TREES" min="0" max="600" value="100"><br>
+        <label>Trunc chunks nbr:</label><br>
+        <input type="range" id="TRUNC_CHUNCKS_NBR" name="trunc chuncks nbr" min="0" max="25" value="12"><br>
+        <label>Trunc chunks size:</label><br>
+        <input type="range" id="TRUNC_CHUNK_SIZE" name="trunc chunks size" min="0" max="23" value = "12"><br>
+        <label>Branch nbr:</label><br>
+        <input type="range" id="BRANCH_NBR" name="branch nbr" min="0" max="8" value="5"><br>
+        <label>Branch size:</label><br>
+        <input type="range" id="BRANCH_SIZE" name="branch size" min="0" max="5" value="2"><br>
+        <label>Branch Generation:</label><br>
+        <input type="range" id="BRANCH_GEN_MAX" name="branch gen max" min="0" max="7" value="5"><br>
+        <label>foliage width:</label><br>
+        <input type="range" id="LARGEUR_FEUILLAGE" name="LARGEUR_FEUILLAGE" min="0" max="8" value="3"><br>
+        <label>foliage height:</label><br>
+        <input type="range" id="HAUTEUR_FEUILLAGE" name="HAUTEUR_FEUILLAGE" min="0" max="8" value="1"><br>
+    </div>
+    <script src="./forest.js" type="module"></script>
+</body>
+</html>

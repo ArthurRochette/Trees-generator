@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.controls {
+    position: absolute;
+    margin: 0;
+    width: 10%;
+    
+}
+
+.controls label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
